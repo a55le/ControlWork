@@ -13,3 +13,10 @@ int Number1 = new Random() .Next(1,Lenght);
 int Number2 = new Random() .Next(1,Lenght);
 Fin = $"{MS[Number1]}" + $"{MS[Number2]}";
 }
+if (ValueSTR == 3)
+{
+int Number1 = new Random() .Next(1,Lenght);
+int Number2 = new Random() .Next(1,Lenght);
+int Number3 = new Random() .Next(1,Lenght);
+Fin = $"{MS[Number1]}" + $"{MS[Number2]}" + $"{MS[Number3]}";
+}
