@@ -7,3 +7,9 @@ if (ValueSTR == 1)
 int Number1 = new Random() .Next(1,Lenght);
 Fin = $"{MS[Number1]}";
 }
+if (ValueSTR == 2)
+{
+int Number1 = new Random() .Next(1,Lenght);
+int Number2 = new Random() .Next(1,Lenght);
+Fin = $"{MS[Number1]}" + $"{MS[Number2]}";
+}
