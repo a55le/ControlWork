@@ -20,3 +20,6 @@ int Number2 = new Random() .Next(1,Lenght);
 int Number3 = new Random() .Next(1,Lenght);
 Fin = $"{MS[Number1]}" + $"{MS[Number2]}" + $"{MS[Number3]}";
 }
+string[] a = Fin.Split(' '); 
+for(int i = 0; i < a.Length; i++) a[i] = "«"+ a[i] + "»"; 
+Console.WriteLine("[{0}]", string.Join(", ", a));
